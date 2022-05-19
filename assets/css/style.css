@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --gray: #e5e4e2;
+  --darkgray: #838996;
+}
+
+@font-face {
+  font-family: "P22MayflowerSmoothPro";
+  src: local("./P22MayflowerSmoothPro.ttf");
+}
+
+body {
+  font-family: "P22MayflowerSmoothPro", "Times New Roman", Times, serif;
+}
+
+/* Header Styles */
+header {
+  padding: 20px 35px;
+  background-color: var(--black);
+  display: flex;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--gray);
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav {
+  margin: 7px 0;
+  color: var(--gray);
+  margin-left: auto;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+/* Header Styles End */
+
+/* Hero Style Start */
+
+section {
+  padding: 60px;
+}
+
+.hero {
+  background-image: url("../images/profpic1.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Hero Style End */
+
+/* About Style */
+.abt {
+  text-align: center;
+}
+
+.abt p {
+  line-height: 1.7;
+  color: var(--black);
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 55px;
+  color: var(--black);
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+}
+
+/* About Style End*/
+
+/* Work Style*/
+.wrk {
+  text-align: center;
+  background: var(--black);
+}
+
+.wrk h2 {
+  color: var(--gray);
+}
+
+.wrk div {
+  margin-bottom: 80px;
+}
+
+.wrk h4 {
+  color: var(--gray);
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.wrk img {
+  width: 80%;
+  margin: 10px 0;
+}
+
+#hor img {
+  width: 50%;
+}
+
+/* Work Style End*/
+
+/* Contact Style*/
+
+.cont {
+  text-align: center;
+}
+
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+/* Contact Style End */
+
+/* Footer Styles */
+
+footer {
+  background: var(--black);
+  width: 100%;
+  padding: 40px 35px;
+}
+
+/* Footer Styles End*/
+
+/* a format override */
+
+a:-webkit-any-link {
+  color: var(--gray);
+}
+
+/* a format override */
