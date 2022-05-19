@@ -8,5 +8,5 @@ Contact Info
 
 Deployed Link: https://dylanhay.github.io/portfolio/
 
-![Screenshot](./assets/images/profpic1.jpg "Dylan Hay")
+![Screenshot](./assets/images/port-land.png "Dylan Hay")
 
